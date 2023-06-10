@@ -1,4 +1,4 @@
-package org.example.homework;
+package org.example.homework.lesson3;
 
 public class Student {
     int studentTicketNumber;

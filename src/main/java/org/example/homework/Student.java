@@ -14,6 +14,13 @@ public class Student {
 }
 
 class StudentTest {
+
+
+    double averageStudentGrade(Student student) {
+        double averageGradeInMethod = (student.gradeMath + student.gradeEconomy + student.gradeEnglish) / 3;
+        System.out.println("Средняя оценка студента " + student.name + student.surname + ": "+ + averageGradeInMethod);
+        return averageGradeInMethod;
+    }
     public static void main(String[] args) {
 
         Student studentFirst = new Student();
@@ -97,8 +104,15 @@ class StudentTest {
         System.out.print("Средняя оценка ");
         System.out.println(studentThree.averageGrade);
 
+        StudentTest studentTest = new StudentTest();
+        studentTest.averageStudentGrade(studentFirst);
+        studentTest.averageStudentGrade(studentSecond);
+        studentTest.averageStudentGrade(studentThree);
 
 
     }
-
 }
+
+
+
+

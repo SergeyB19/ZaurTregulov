@@ -34,6 +34,7 @@ class CarTest {
         changeColor (car,car2);
         System.out.println(car.doorCarQuantity);
         System.out.println(car.color);
+        System.out.println(car2.color);
     }
 
 }

@@ -2,8 +2,8 @@ package org.example.homework.lesson12;
 
 public class StudentTest {
     public static void main(String[] args) {
-        Student st1 = new Student("Ivan", 2, 7);
-        Student st2 = new Student("Petr", 3, 8);
+        Student st1 = new Student("Ivan", 3, 8);
+        Student st2 = new Student("Ivan", 3, 8);
         equalsStudent(st1, st2);
         equalStudentPro(st1, st2);
     }

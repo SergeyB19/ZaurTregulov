@@ -2,8 +2,6 @@ package org.example.homework.lesson17;
 
 public class Lesson17 {
 
-
-
     static boolean ravenstvo(StringBuilder sb1, StringBuilder sb2) {
         boolean result = true;
         if (sb1.length() == sb2.length()) {

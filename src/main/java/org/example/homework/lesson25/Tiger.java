@@ -6,6 +6,7 @@ public class Tiger {
         if (!str.equals("myaso")) {
             throw new NeMyasoException("Tigr ne est " + str);
         }
+        System.out.println("Tigr  est " + str);
     }
 
 

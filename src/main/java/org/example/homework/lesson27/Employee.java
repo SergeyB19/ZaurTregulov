@@ -30,9 +30,7 @@ class TestEmployee {
 
         TestEmployee testEmployee = new TestEmployee();
         testEmployee.filtraciyaRabotnikov(arrayList, (Employee em) -> em.department.equals("IT") && em.salary > 200);
-        System.out.println("__________________________________");
         testEmployee.filtraciyaRabotnikov(arrayList, (Employee em) -> em.name.startsWith("E") && em.salary != 450);
-        System.out.println("__________________________________");
         testEmployee.filtraciyaRabotnikov(arrayList, (Employee em) -> em.name.equals(em.department));
 
     }
